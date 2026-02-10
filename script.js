@@ -46,7 +46,7 @@ function nombresImpairs(nombres) {
 // ex2
 function nombresNegatifs(nombres) {
     return filter (nombres , function (el) {
-        return el <= 0
+        return el < 0
     })
 }
 
